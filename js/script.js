@@ -1,9 +1,5 @@
-const menuHamburguer = document.querySelector('.icon');
-const menuActived = document.querySelector('.menu-mobile')
+import initMenuMobile from './modules/menu-mobile.js';
+import initShowBar from './modules/show-bar.js';
 
-function menuMobile(){
-    menuHamburguer.classList.toggle('active')
-    menuActived.classList.toggle('menu-actived')
-}
-
-menuHamburguer.addEventListener('click', menuMobile);
+initMenuMobile();
+initShowBar();

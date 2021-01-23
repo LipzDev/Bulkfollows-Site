@@ -38,6 +38,10 @@ html{
     position: fixed;
     width: 100%;   
     z-index: 9996; 
+    transition: 0.5s;
+}
+
+.show-bar{
     background-color: #7008FD;
 }
 
@@ -132,11 +136,7 @@ html{
 
 .menu-mobile{
     display: none;
-}
 
-/* MENU-ACTIVED */
-
-.menu-actived{
     left: 0;
     top: 0;
     position: fixed;
@@ -151,7 +151,18 @@ html{
     align-items: center;
     text-align: center;
 
-    animation: menuMobile 0.6s;
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+    transform: translate(-50rem);
+}
+
+/* MENU-ACTIVED */
+
+.menu-actived{
+    visibility: visible;
+    opacity: 1;
+    transform: translate(0);
 }
 
 .menu-actived a{
@@ -163,15 +174,6 @@ html{
     margin-top: 30px;
 }
 
-@keyframes menuMobile{
-    to{
-        left: 0;
-    }
-
-    from{
-        left: -500px;
-    }
-}
 
 /* BACKGROUND */
 

@@ -6,4 +6,4 @@
 Criei o site todo do zero desde as imagens e overlays com Adobe ilustrator até o código.
  
  ###  Este site faz parte da coleção de sites preferidos em que coloquei no meu portfólio.
- [Link](https://lipzdev.github.io/Site-6/)
+ [Link](https://lipzdev.github.io/Bulkfollows-Site/)
